@@ -8,8 +8,8 @@ public class UsuarioFone {
         fone1.ligarFone();
         fone1.ligarMic();
         fone1.ligarGrave();
-        fone1.mudarVolume(99);
-        fone1.mudarVolumeMic(56);
+        fone1.mudarVolume(43);
+        fone1.mudarVolumeMic(16);
         fone1.DesligarGrave();
         fone1.desligarMic();
         fone1.desligarFone();

@@ -9,39 +9,31 @@ public class Fone {
         ligado = true;   
     }
 
-    boolean desligarFone(){
+    public void desligarFone(){
         ligado = false;
-        return ligado;
     }
 
-    boolean ligarMic(){
+    public void ligarMic(){
         microfoneLigado = true;
-        return microfoneLigado;
     }
 
-    boolean desligarMic(){
+    public void desligarMic(){
         microfoneLigado = false;
-        return microfoneLigado;
     }
 
-    boolean ligarGrave(){
+    public void ligarGrave(){
         graveLigado = true;
-        return graveLigado;
     }
 
-    boolean DesligarGrave(){
+    public void DesligarGrave(){
         graveLigado = false;
-        return graveLigado;
     }
 
     public void mudarVolume(int volume){
-        volumeAtual = volume;
-        
+        volumeAtual = volume;    
     }
 
-    int mudarVolumeMic(int volume){
+    public void mudarVolumeMic(int volume){
         volumeMicrofone = volume;
-        return volumeMicrofone;
-
     }   
 }
